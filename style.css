@@ -1,0 +1,73 @@
+/* import font packages */
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap");
+
+body {
+  display: block;
+  margin: inherit;
+}
+
+h1,
+h2 {
+  font-family: "Fraunces", serif;
+}
+
+h1 {
+  letter-spacing: 0.8rem;
+  text-transform: uppercase;
+  color: white;
+  padding-top: 8rem;
+  text-align: center;
+  font-size: 5em;
+}
+
+/* header styling */
+header {
+  display: inline-block;
+}
+
+#myHeader {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("images/desktop/image-header.jpg");
+  background-position: center;
+}
+
+/* navigation styling */
+
+nav {
+  margin: 2rem;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  font-family: "Barlow", sans-serif;
+  /* padding: 1rem 1rem 1rem 1rem; */
+  margin: 0rem 2.4rem 1rem 1rem;
+  float: right;
+  display: inline;
+}
+
+#arrow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
