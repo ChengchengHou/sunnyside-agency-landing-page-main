@@ -9,7 +9,7 @@ body {
 }
 
 h1,
-h2, a{
+h2, a, h3{
   font-family: "Fraunces", serif;
 }
 
@@ -46,14 +46,22 @@ header {
 }
 
 /* navigation styling */
-
 nav {
-  margin: 2rem;
+  margin-top: 2rem;
 }
 
 nav li a {
+  padding: 1rem;
+  font-family: "Barlow", sans-serif;
   color: white;
   text-decoration: none;
+}
+
+nav li a:hover{
+  font-family: "Fraunces", serif;
+  border-radius: 25px;
+  color: white;
+  background-color:rgba(255, 255, 255, 0.5)
 }
 
 ul {
@@ -89,6 +97,7 @@ li {
     text-decoration: underline;
     text-decoration-color: yellow;
     text-decoration-thickness: 0.3rem;
+    text-underline-offset: -3px;
 }
 
 .column img{
@@ -106,8 +115,38 @@ li {
   clear: both;
 }
 
-#subsection {
+#subsection, #subsection2{
   padding: 8rem;
+}
+
+#subsection2 {
+    width: 100%;
+    height:100%;
+    background-image: url("images/desktop/image-graphic-design.jpg");
+    background-repeat: no-repeat;
+}
+
+#subsection3 {
+margin: 28rem 8rem 4rem 8rem;
+text-align: center;
+}
+
+#subsection3 h3 {
+  font-size: 2em;
+  opacity: 0.6;
+  }
+
+/* subsection 3's background image */
+
+.cherry {
+  background-image: url("images/desktop/image-graphic-design.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.orange {
+  background-image: url("images/desktop/image-photography.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .attribution {
